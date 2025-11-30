@@ -23,7 +23,8 @@ Personal portfolio focused on accessibility-first UI, clean theming, and interac
 1. Clone or download this repository.
 2. From the project root, start any static file server (for example `python3 -m http.server 8000`).
 3. Open `http://localhost:8000/index.html` in your browser to explore the portfolio. Running through a server avoids CORS issues when fetching Insights.
-4. (Optional) Update the GitHub handle by changing the `data-github-user` value on the `#github` section in `index.html`.
+4. The GitHub feed is configured to `AbdulmajeedALJ`; change the `data-github-user` value on the `#github` section in `index.html` if you want to preview another handle.
+5. (Optional) Avoid GitHub API rate limits by adding a personal access token via `data-github-token="YOUR_TOKEN"` on the `#github` section or by setting `localStorage.setItem('github-pat', 'YOUR_TOKEN')` in the browser console.
 
 ## Documentation
 - `docs/technical-documentation.md` – in-depth architecture and implementation notes.
